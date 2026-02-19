@@ -496,6 +496,9 @@ https://github.com/mxrch/GHunt
 <br># GHunt is an OSINT tool to extract information from any Google Account using an email.
 <br>```python3 ghunt.py email myemail@gmail.com```
 
+https://wiza.co/
+<br># The world's largest and most accurate prospecting solution.
+
 ### Google Dorks
 https://docs.google.com/document/d/1ydVaJJeL1EYbWtlfj9TPfBTE5IBADkQfZrQaBZxqXGs/view
 <br># Google Advanced Search Operators
