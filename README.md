@@ -32,7 +32,6 @@
   - [Subdomain Takeover](#subdomain-takeover)
   - [SQLi (SQL Injection)](#sqli-sql-injection)
   - [XSS (Cross-Site Scripting)](#xss_scanning)
-  - [Repositories Scanning](#repositories-scanning)
   - [Secret Scanning](#secret-scanning)
   - [CORS Misconfigurations](#cors-misconfigurations)
   - [API](#api)
@@ -993,7 +992,7 @@ https://github.com/KathanP19/Gxss
 <br># A Light Weight Tool for checking reflecting Parameters in a URL. Inspired by kxss by @tomnomnom.
 <br>```echo "https://www.example.com/some.php?first=hello&last=world" | Gxss -c 100```
 
-### Repositories Scanning
+### Secret Scanning
 https://github.com/zricethezav/gitleaks
 <br># Gitleaks is a SAST tool for detecting hardcoded secrets like passwords, api keys, and tokens in git repos.
 
@@ -1022,7 +1021,6 @@ https://www.gitguardian.com/
 https://docs.gitguardian.com/secrets-detection/detectors/supported_credentials
 <br># Here is an exhaustive list of the detectors supported by GitGuardian.
 
-### Secret Scanning
 https://github.com/redhuntlabs/HTTPLoot
 <br># An automated tool which can simultaneously crawl, fill forms, trigger error/debug pages and "loot" secrets out of the client-facing code of sites.
 
@@ -1040,6 +1038,12 @@ https://github.com/praetorian-inc/noseyparker
 
 https://github.com/praetorian-inc/gato
 <br># Gato, or GitHub Attack Toolkit, is an enumeration and attack tool that allows both blue teamers and offensive security practitioners to identify and exploit pipeline vulnerabilities within a GitHub organization's public and private repositories.
+
+https://github.com/praetorian-inc/titus
+<br># Titus is a high-performance secrets scanner that detects credentials, API keys, and tokens in source code, files, and git history.
+
+https://github.com/mongodb/kingfisher
+<br># Kingfisher is a blazingly fast secret-scanning and live validation tool built in Rust.
 
 ### Google Dorks Scanning
 ### CORS Misconfigurations
